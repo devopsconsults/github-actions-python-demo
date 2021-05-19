@@ -1,5 +1,5 @@
 
-name: First Workflow                                               
+name: DevOps With Github Actions - Python Demo                                               
 on: push                                                  
 jobs:                         
   

@@ -4,7 +4,7 @@ on: push
 jobs:                         
   
   ascii-demo:                           
-    name: Say hi                           
+    name: Onboard KIU                           
     runs-on: ubuntu-latest                           
     steps:                           
       - name: Print a greeting                             
@@ -13,7 +13,7 @@ jobs:
       - name: Show ASCII greeting                             
         uses: mscoutermarsh/ascii-art-action@master    
         with:                               
-          text: 'HELLO!'                                                           
+          text: 'Welcome, KIU!'                                                           
   
   get-posts-job:                            
     name: Get TDS posts                            

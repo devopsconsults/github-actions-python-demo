@@ -4,7 +4,7 @@ on: push
 jobs:                         
   
   ascii-demo:                           
-    name: Onboard KIU                           
+    name: Python demo                          
     runs-on: ubuntu-latest                           
     steps:                           
       - name: Print a greeting                             
